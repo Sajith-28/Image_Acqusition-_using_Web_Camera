@@ -47,9 +47,9 @@ import time
 cap = cv2.VideoCapture(0)
 ret, frame = cap.read()
 if ret:
-    cv2.imwrite("Sharon.jpg", frame)
+    cv2.imwrite("Sajith.jpg", frame)
 cap.release()
-captured_image = cv2.imread('Sharon.jpg')
+captured_image = cv2.imread('Sajith.jpg')
 plt.imshow(captured_image[:,:,::-1])
 plt.axis('off')
 plt.show()
@@ -124,19 +124,19 @@ cap.release()
 ## Output
 
 ### i) Write the frame as JPG image
-<img width="608" height="518" alt="image" src="https://github.com/user-attachments/assets/b3355673-7df5-4e31-a7cd-3edfe2432f8f" />
-
+<img width="960" height="681" alt="image" src="https://github.com/user-attachments/assets/a97012c1-8dd5-4f4b-aeed-1085493f6e20" />
 
 
 
 ### ii) Display the video
-<img width="705" height="562" alt="image" src="https://github.com/user-attachments/assets/37507232-3468-4c25-ac62-51c9d9ee4179" />
+<img width="1024" height="682" alt="image" src="https://github.com/user-attachments/assets/44a26793-f33a-4b56-99f9-d3e26dd3ef4b" />
+
 
 
 
 
 ### iii) Display the video by resizing the window
-<img width="150" height="448" alt="image" src="https://github.com/user-attachments/assets/2bf89f8d-7362-4582-a97a-b677f2f71d5d" />
+<img width="456" height="686" alt="image" src="https://github.com/user-attachments/assets/5c47acf1-28a4-470b-a893-97c81328643a" />
 
 
 
@@ -145,8 +145,7 @@ cap.release()
 
 
 ### iv) Rotate and display the video
-<img width="561" height="691" alt="image" src="https://github.com/user-attachments/assets/7e484481-c44e-4a5d-a03a-6fa4c1a76cc7" />
-
+<img width="331" height="613" alt="image" src="https://github.com/user-attachments/assets/f1ec8f2d-12fc-43c2-b25e-99433acd8331" />
 
 
 
